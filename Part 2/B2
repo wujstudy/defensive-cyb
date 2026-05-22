@@ -1,0 +1,30 @@
+a) Zero Trust Architecture (ZTA)
+•	Zero Trust assumes no user or device should automatically be trusted, even inside a network 
+•	Access requests are continuously checked using things like device health, location, and user behaviour 
+•	Continuous monitoring helps quickly detect suspicious activity 
+•	(E.g. Blocking login attempts from two countries within minutes) 
+•	https://www.microsoft.com/insidetrack/blog/implementing-a-zero-trust-security-model-at-microsoft/ 
+b) Behavioural Biometrics
+•	Behavioural biometrics analyse how users interact with devices instead of relying only on passwords 
+•	Systems can monitor typing patterns, mouse movements, or touchscreen gestures 
+•	This makes account hijacking harder because attackers cannot easily copy user behaviour 
+•	(E.g. Detecting unusual typing behaviour during online banking sessions) 
+•	https://www.eccu.edu/blog/the-latest-cybersecurity-technologies-and-trends/ 
+c) Hardware-Enforced Isolation (Micro-Virtualisation)
+•	Suspicious files or websites are opened inside isolated micro-virtual machines (Micro-VMs) 
+•	Malware is contained inside the isolated environment and cannot affect the main system 
+•	The isolated environment is deleted after the session ends 
+•	(E.g. Opening an unknown email attachment inside an isolated virtual environment) 
+•	https://www.google.com/search?q=Hardware-Enforced+Isolation+%28Micro-Virtualization%29 
+d) Homomorphic Encryption
+•	Homomorphic encryption allows encrypted data to still be processed without decrypting it first 
+•	Sensitive information can be analysed without exposing the original data 
+•	This reduces risks when using cloud services or third-party systems 
+•	(E.g. Processing encrypted medical records in cloud environments) 
+•	https://www.splunk.com/en_us/blog/learn/homomorphic-encryption.html 
+e) Deception Technology (Honeypots & Honeytokens)
+•	Deception technology uses fake systems, files, or databases to attract attackers 
+•	Interacting with fake assets alerts security teams to suspicious activity 
+•	This helps detect attackers before real systems or data are compromised 
+•	(E.g. Deploying a fake administrator database to detect unauthorised access attempts) 
+•	https://www.acalvio.com/resources/glossary/deception-technology
